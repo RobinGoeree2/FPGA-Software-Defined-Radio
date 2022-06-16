@@ -1,0 +1,158 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/simulation/modelsim
+Ealtpll0
+Z1 w1363378180
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+R0
+Z4 8C:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/altpll0.vhd
+Z5 FC:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/altpll0.vhd
+l0
+L42 1
+VPE>dOdMTk55=J0T?j4n681
+!s100 7zTAFkM=4;G9`ZSn[E>]J0
+Z6 OL;C;2021.2;73
+31
+Z7 !s110 1652697762
+!i10b 1
+Z8 !s108 1652697762.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/altpll0.vhd|
+!s107 C:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/altpll0.vhd|
+!i113 0
+Z10 o-93 -work work
+Z11 tExplicit 1 CvgOpt 0
+Asyn
+R2
+R3
+DEx4 work 7 altpll0 0 22 PE>dOdMTk55=J0T?j4n681
+!i122 3
+l127
+L52 149
+VVP5;=LYf=^V4_hIJPh5eJ3
+!s100 lKGLl`4SIo6oDe<?XWN`:2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 C:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/altpll0.vhd|
+!i113 0
+R10
+R11
+valtpll0_altpll
+!s110 1652697761
+!i10b 1
+!s100 c<[Q7Uf5eo3j^6Y@IZI:?0
+IiTcVmdCAloCK948d]PL;00
+R0
+w1652697476
+8C:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/db/altpll0_altpll.v
+FC:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/db/altpll0_altpll.v
+!i122 0
+L0 30 66
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2021.2;73
+r1
+!s85 0
+31
+Z13 !s108 1652697761.000000
+!s107 C:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/db/altpll0_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/db|C:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/db/altpll0_altpll.v|
+!i113 0
+o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+C:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0
+Ehw_image_generator
+Z14 w1368205250
+R2
+R3
+!i122 2
+R0
+Z15 8C:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/hw_image_generator.vhd
+Z16 FC:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/hw_image_generator.vhd
+l0
+L26 1
+Vi<`P_>i`=l5lgmLK57RX_2
+!s100 ]`483PHci<TiEZmMo_Q6e0
+R6
+31
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/hw_image_generator.vhd|
+Z18 !s107 C:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/hw_image_generator.vhd|
+!i113 0
+R10
+R11
+Abehavior
+R2
+R3
+DEx4 work 18 hw_image_generator 0 22 i<`P_>i`=l5lgmLK57RX_2
+!i122 2
+l40
+L39 23
+VU`Q=W?1i7H;heXNTVd8LV1
+!s100 fB3MB0;LMaz<H6[j0bPK[0
+R6
+31
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 0
+R10
+R11
+Evga_controller
+Z19 w1520462419
+R2
+R3
+!i122 1
+R0
+Z20 8C:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/vga_controller.vhd
+Z21 FC:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/vga_controller.vhd
+l0
+L28 1
+V43_lUoVffVbG8RMNkkVAi0
+!s100 ^7QEFmjA<h<RaH`R7X^Ca3
+R6
+31
+R7
+!i10b 1
+R13
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/vga_controller.vhd|
+Z23 !s107 C:/Users/Robin/Downloads/vga_with_hw_test_image_v1_1_restored/vga_controller.vhd|
+!i113 0
+R10
+R11
+Abehavior
+R2
+R3
+DEx4 work 14 vga_controller 0 22 43_lUoVffVbG8RMNkkVAi0
+!i122 1
+l55
+L52 69
+VzUZ9fCWN>To:ZCMRRR[bE3
+!s100 z4MLdee0gn?W@OEICA@5[1
+R6
+31
+R7
+!i10b 1
+R13
+R22
+R23
+!i113 0
+R10
+R11

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue May 31 10:55:54 2022
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : DE2_115_dsp_design_top
+Top-level Entity Name : DE2_115_dsp_design_top
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 4,647 / 114,480 ( 4 % )
+    Total combinational functions : 3,765 / 114,480 ( 3 % )
+    Dedicated logic registers : 4,231 / 114,480 ( 4 % )
+Total registers : 4231
+Total pins : 482 / 529 ( 91 % )
+Total virtual pins : 0
+Total memory bits : 688,240 / 3,981,312 ( 17 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

@@ -1,0 +1,63 @@
+
+State Machine - |DE2_115_SD_Card_Audio_Player|DE2_115_SOPC:DE2_115_SOPC_inst|Terasic_IrDA_0:the_Terasic_IrDA_0|TERASIC_IRM:terasic_irda_0|IRDA_RECEIVE_Terasic:IRDA_RECEIVE_Terasic_inst|state
+Name state.IDLE state.DATAREAD state.GUIDANCE 
+state.IDLE 0 0 0 
+state.GUIDANCE 1 0 1 
+state.DATAREAD 1 1 0 
+
+State Machine - |DE2_115_SD_Card_Audio_Player|DE2_115_SOPC:DE2_115_SOPC_inst|DE2_115_SOPC_clock_3:the_DE2_115_SOPC_clock_3|DE2_115_SOPC_clock_3_master_FSM:master_FSM|master_state
+Name master_state.100 master_state.010 master_state.001 
+master_state.001 0 0 0 
+master_state.010 0 1 1 
+master_state.100 1 0 1 
+
+State Machine - |DE2_115_SD_Card_Audio_Player|DE2_115_SOPC:DE2_115_SOPC_inst|DE2_115_SOPC_clock_3:the_DE2_115_SOPC_clock_3|DE2_115_SOPC_clock_3_slave_FSM:slave_FSM|slave_state
+Name slave_state.100 slave_state.010 slave_state.001 
+slave_state.001 0 0 0 
+slave_state.010 0 1 1 
+slave_state.100 1 0 1 
+
+State Machine - |DE2_115_SD_Card_Audio_Player|DE2_115_SOPC:DE2_115_SOPC_inst|DE2_115_SOPC_clock_2:the_DE2_115_SOPC_clock_2|DE2_115_SOPC_clock_2_master_FSM:master_FSM|master_state
+Name master_state.100 master_state.010 master_state.001 
+master_state.001 0 0 0 
+master_state.010 0 1 1 
+master_state.100 1 0 1 
+
+State Machine - |DE2_115_SD_Card_Audio_Player|DE2_115_SOPC:DE2_115_SOPC_inst|DE2_115_SOPC_clock_2:the_DE2_115_SOPC_clock_2|DE2_115_SOPC_clock_2_slave_FSM:slave_FSM|slave_state
+Name slave_state.100 slave_state.010 slave_state.001 
+slave_state.001 0 0 0 
+slave_state.010 0 1 1 
+slave_state.100 1 0 1 
+
+State Machine - |DE2_115_SD_Card_Audio_Player|DE2_115_SOPC:DE2_115_SOPC_inst|DE2_115_SOPC_clock_1:the_DE2_115_SOPC_clock_1|DE2_115_SOPC_clock_1_master_FSM:master_FSM|master_state
+Name master_state.100 master_state.010 master_state.001 
+master_state.001 0 0 0 
+master_state.010 0 1 1 
+master_state.100 1 0 1 
+
+State Machine - |DE2_115_SD_Card_Audio_Player|DE2_115_SOPC:DE2_115_SOPC_inst|DE2_115_SOPC_clock_1:the_DE2_115_SOPC_clock_1|DE2_115_SOPC_clock_1_slave_FSM:slave_FSM|slave_state
+Name slave_state.100 slave_state.010 slave_state.001 
+slave_state.001 0 0 0 
+slave_state.010 0 1 1 
+slave_state.100 1 0 1 
+
+State Machine - |DE2_115_SD_Card_Audio_Player|DE2_115_SOPC:DE2_115_SOPC_inst|DE2_115_SOPC_clock_0:the_DE2_115_SOPC_clock_0|DE2_115_SOPC_clock_0_master_FSM:master_FSM|master_state
+Name master_state.100 master_state.010 master_state.001 
+master_state.001 0 0 0 
+master_state.010 0 1 1 
+master_state.100 1 0 1 
+
+State Machine - |DE2_115_SD_Card_Audio_Player|DE2_115_SOPC:DE2_115_SOPC_inst|DE2_115_SOPC_clock_0:the_DE2_115_SOPC_clock_0|DE2_115_SOPC_clock_0_slave_FSM:slave_FSM|slave_state
+Name slave_state.100 slave_state.010 slave_state.001 
+slave_state.001 0 0 0 
+slave_state.010 0 1 1 
+slave_state.100 1 0 1 
+
+State Machine - |DE2_115_SD_Card_Audio_Player|DE2_115_SOPC:DE2_115_SOPC_inst|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_jtag_debug_module_wrapper:the_cpu_jtag_debug_module_wrapper|cpu_jtag_debug_module_tck:the_cpu_jtag_debug_module_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 

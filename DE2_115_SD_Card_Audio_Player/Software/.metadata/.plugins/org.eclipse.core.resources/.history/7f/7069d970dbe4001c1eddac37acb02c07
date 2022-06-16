@@ -1,0 +1,13 @@
+/*
+ * stdarg.h
+ *
+ *  Created on: Jun 5, 2022
+ *      Author: Robin
+ */
+
+#ifndef TERASIC_FAT_STDARG_H_
+#define TERASIC_FAT_STDARG_H_
+
+
+
+#endif /* TERASIC_FAT_STDARG_H_ */

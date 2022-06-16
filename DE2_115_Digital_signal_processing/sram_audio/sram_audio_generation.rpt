@@ -1,0 +1,65 @@
+Info: Starting: Create simulation model
+Info: qsys-generate C:\Users\Robin\Documents\NHLStenden\FPGA\QuartusPrimeProjects\DCC_CDRom\Examples\DE2_115_dsp_example_ChAB\sram_audio.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\Users\Robin\Documents\NHLStenden\FPGA\QuartusPrimeProjects\DCC_CDRom\Examples\DE2_115_dsp_example_ChAB\sram_audio\simulation --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading DE2_115_dsp_example_ChAB/sram_audio.qsys
+Progress: Reading input file
+Progress: Adding sram_0 [altera_up_avalon_sram 18.0]
+Progress: Parameterizing module sram_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: sram_audio: Generating sram_audio "sram_audio" for SIM_VERILOG
+Info: sram_0: Starting Generation of the SRAM Controller
+Info: sram_0: "sram_audio" instantiated altera_up_avalon_sram "sram_0"
+Info: sram_audio: Done "sram_audio" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=C:\Users\Robin\Documents\NHLStenden\FPGA\QuartusPrimeProjects\DCC_CDRom\Examples\DE2_115_dsp_example_ChAB\sram_audio\sram_audio.spd --output-directory=C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/sram_audio/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\Users\Robin\Documents\NHLStenden\FPGA\QuartusPrimeProjects\DCC_CDRom\Examples\DE2_115_dsp_example_ChAB\sram_audio\sram_audio.spd --output-directory=C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/sram_audio/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/sram_audio/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/sram_audio/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/sram_audio/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/sram_audio/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/sram_audio/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/sram_audio/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\Robin\Documents\NHLStenden\FPGA\QuartusPrimeProjects\DCC_CDRom\Examples\DE2_115_dsp_example_ChAB\sram_audio.qsys --block-symbol-file --output-directory=C:\Users\Robin\Documents\NHLStenden\FPGA\QuartusPrimeProjects\DCC_CDRom\Examples\DE2_115_dsp_example_ChAB\sram_audio --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading DE2_115_dsp_example_ChAB/sram_audio.qsys
+Progress: Reading input file
+Progress: Adding sram_0 [altera_up_avalon_sram 18.0]
+Progress: Parameterizing module sram_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\Robin\Documents\NHLStenden\FPGA\QuartusPrimeProjects\DCC_CDRom\Examples\DE2_115_dsp_example_ChAB\sram_audio.qsys --synthesis=VERILOG --output-directory=C:\Users\Robin\Documents\NHLStenden\FPGA\QuartusPrimeProjects\DCC_CDRom\Examples\DE2_115_dsp_example_ChAB\sram_audio\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading DE2_115_dsp_example_ChAB/sram_audio.qsys
+Progress: Reading input file
+Progress: Adding sram_0 [altera_up_avalon_sram 18.0]
+Progress: Parameterizing module sram_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: sram_audio: Generating sram_audio "sram_audio" for QUARTUS_SYNTH
+Info: sram_0: Starting Generation of the SRAM Controller
+Info: sram_0: "sram_audio" instantiated altera_up_avalon_sram "sram_0"
+Info: sram_audio: Done "sram_audio" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

@@ -1,0 +1,26 @@
+
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/fir_3mhz_low.v
+
+May 25 06PM:50:21>: Megafunction FIR Compiler v11.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/fir_3mhz_low.v
+
+May 25 06PM:50:25>: Megafunction FIR Compiler v11.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/fir_3mhz_low.v
+
+May 25 07PM:00:45>: Megafunction FIR Compiler v11.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/fir_3mhz_low.v
+
+May 25 07PM:00:47>: Megafunction FIR Compiler v11.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/fir_3mhz_low.v
+
+May 25 07PM:00:48>: Megafunction FIR Compiler v11.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

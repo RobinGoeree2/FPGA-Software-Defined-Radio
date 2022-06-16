@@ -1,0 +1,13 @@
+/*
+ * stdio.h
+ *
+ *  Created on: Jun 5, 2022
+ *      Author: Robin
+ */
+
+#ifndef TERASIC_FAT_STDIO_H_
+#define TERASIC_FAT_STDIO_H_
+
+
+
+#endif /* TERASIC_FAT_STDIO_H_ */
