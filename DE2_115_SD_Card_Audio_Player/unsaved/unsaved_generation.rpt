@@ -1,0 +1,68 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\Robin\Documents\NHLStenden\FPGA\QuartusPrimeProjects\DE2-115_V.1.0.6_SystemCD\DE2_115_demonstrations\DE2_115_SD_Card_Audio_Player_Copy\unsaved.qsys --block-symbol-file --output-directory=C:\Users\Robin\Documents\NHLStenden\FPGA\QuartusPrimeProjects\DE2-115_V.1.0.6_SystemCD\DE2_115_demonstrations\DE2_115_SD_Card_Audio_Player_Copy\unsaved --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading DE2_115_SD_Card_Audio_Player_Copy/unsaved.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 21.1]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 21.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\Robin\Documents\NHLStenden\FPGA\QuartusPrimeProjects\DE2-115_V.1.0.6_SystemCD\DE2_115_demonstrations\DE2_115_SD_Card_Audio_Player_Copy\unsaved.qsys --synthesis=VERILOG --output-directory=C:\Users\Robin\Documents\NHLStenden\FPGA\QuartusPrimeProjects\DE2-115_V.1.0.6_SystemCD\DE2_115_demonstrations\DE2_115_SD_Card_Audio_Player_Copy\unsaved\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading DE2_115_SD_Card_Audio_Player_Copy/unsaved.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 21.1]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 21.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: unsaved: Generating unsaved "unsaved" for QUARTUS_SYNTH
+Info: nios2_gen2_0: "unsaved" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "unsaved" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "unsaved" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "unsaved" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'unsaved_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/21.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/21.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/21.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/21.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/21.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/21.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/21.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/21.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/21.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=unsaved_nios2_gen2_0_cpu --dir=C:/Users/Robin/AppData/Local/Temp/alt9150_2090268445170473290.dir/0004_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/21.1/quartus/bin64/ --verilog --config=C:/Users/Robin/AppData/Local/Temp/alt9150_2090268445170473290.dir/0004_cpu_gen//unsaved_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2022.06.07 15:30:47 (*) Starting Nios II generation
+Info: cpu: # 2022.06.07 15:30:47 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2022.06.07 15:30:47 (*)   Creating all objects for CPU
+Info: cpu: # 2022.06.07 15:30:47 (*)     Testbench
+Info: cpu: # 2022.06.07 15:30:47 (*)     Instruction decoding
+Info: cpu: # 2022.06.07 15:30:47 (*)       Instruction fields
+Info: cpu: # 2022.06.07 15:30:47 (*)       Instruction decodes
+Info: cpu: # 2022.06.07 15:30:47 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2022.06.07 15:30:47 (*)       Instruction controls
+Info: cpu: # 2022.06.07 15:30:47 (*)     Pipeline frontend
+Info: cpu: # 2022.06.07 15:30:47 (*)     Pipeline backend
+Info: cpu: # 2022.06.07 15:30:49 (*)   Generating RTL from CPU objects
+Info: cpu: # 2022.06.07 15:30:49 (*)   Creating plain-text RTL
+Info: cpu: # 2022.06.07 15:30:50 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'unsaved_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: nios2_gen2_0_debug_mem_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "nios2_gen2_0_debug_mem_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: nios2_gen2_0_debug_mem_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "nios2_gen2_0_debug_mem_slave_agent"
+Info: nios2_gen2_0_debug_mem_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "nios2_gen2_0_debug_mem_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player_Copy/unsaved/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: unsaved: Done "unsaved" with 19 modules, 37 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

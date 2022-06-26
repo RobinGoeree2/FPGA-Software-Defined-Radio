@@ -1,0 +1,277 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LEDG[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0_D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0_D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0_D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0_D[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1_D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1_D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1_D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1_D[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2_D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2_D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2_D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2_D[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3_D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3_D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3_D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3_D[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_DACDAT",
+					"strict" : false
+				},
+				{
+					"name" : "DB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DB[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DB[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DB[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DB[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DB[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DB[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DB[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DB[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DB[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DB[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AD_SCLK",
+					"strict" : false
+				},
+				{
+					"name" : "AD_SDIO",
+					"strict" : false
+				},
+				{
+					"name" : "SW[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ADB_OR",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_OR",
+					"strict" : false
+				},
+				{
+					"name" : "SW[2]",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[0]",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[1]",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_D[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_DCO",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_D[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_D[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_D[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_D[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_D[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_D[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_D[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_D[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_D[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ADA_D[9]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

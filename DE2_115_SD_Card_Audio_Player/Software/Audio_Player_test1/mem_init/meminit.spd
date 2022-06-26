@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+<file path="hdl_sim/cfi_flash.dat" type="DAT" memoryPath="null" />
+<file path="hdl_sim/onchip_memory2.dat" type="DAT" memoryPath="null" />
+<file path="onchip_memory2.hex" type="HEX" memoryPath="null" />
+</simPackage>

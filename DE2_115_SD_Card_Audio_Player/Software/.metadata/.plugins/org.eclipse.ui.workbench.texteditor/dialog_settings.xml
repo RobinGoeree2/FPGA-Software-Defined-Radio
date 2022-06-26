@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="TERASIC_IRDA_0_IRQ"/>
+			<item value="SYSTEM_BUS_WIDTH"/>
+			<item value="LCD_NAME"/>
+			<item value="I2C_SCL_BASE"/>
+			<item value="SEG7_BASE"/>
+			<item value="KEY_BASE"/>
+			<item value="Read OK"/>
+			<item value="Fat_Mount success"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="257" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="381" key="DIALOG_HEIGHT"/>
+		<item value="204" key="DIALOG_Y_ORIGIN"/>
+		<item value="668" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

@@ -1,0 +1,91 @@
+
+
+C:/Users/Robin/OneDrive - NHL Stenden/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player/de2_115_sopc.v
+
+May 17 07PM:15:56>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/OneDrive - NHL Stenden/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player/de2_115_sopc.v
+
+May 20 01PM:47:30>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/OneDrive - NHL Stenden/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player/de2_115_sopc.v
+
+May 20 01PM:47:31>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/OneDrive - NHL Stenden/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player/de2_115_sopc.v
+
+May 20 01PM:47:33>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player_Copy/de2_115_sopc.v
+
+May 30 02PM:41:55>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player_Copy/de2_115_sopc.v
+
+May 30 02PM:41:58>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player_Copy/de2_115_sopc.v
+
+May 30 02PM:42:26>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player_Copy/de2_115_sopc.v
+
+May 30 02PM:42:27>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player_Copy/de2_115_sopc.v
+
+May 30 02PM:42:29>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player_Copy/de2_115_sopc.v
+
+May 30 03PM:03:19>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player_Copy/de2_115_sopc.v
+
+May 30 03PM:03:20>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player_Copy/de2_115_sopc.v
+
+May 30 03PM:03:21>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player_Copy/de2_115_sopc.v
+
+May 30 03PM:03:22>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player_Copy/DE2_115_SOPC.v
+
+Jun 07 03PM:35:17>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player_Copy/DE2_115_SOPC.v
+
+Jun 07 03PM:35:18>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player_Copy/de2_115_sopc.v
+
+Jun 09 11AM:44:28>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player_Copy/de2_115_sopc.v
+
+Jun 09 11AM:45:07>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_SystemCD/DE2_115_demonstrations/DE2_115_SD_Card_Audio_Player_Copy/de2_115_sopc.v
+
+Jun 09 11AM:47:10>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

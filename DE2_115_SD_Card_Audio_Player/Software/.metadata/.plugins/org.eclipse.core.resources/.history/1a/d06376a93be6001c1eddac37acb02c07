@@ -1,0 +1,13 @@
+/*
+ * alt_irq.h
+ *
+ *  Created on: Jun 7, 2022
+ *      Author: Robin
+ */
+
+#ifndef TERASIC_FAT_ALT_IRQ_H_
+#define TERASIC_FAT_ALT_IRQ_H_
+
+
+
+#endif /* TERASIC_FAT_ALT_IRQ_H_ */

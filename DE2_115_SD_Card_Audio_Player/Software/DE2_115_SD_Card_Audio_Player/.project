@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>DE2_115_SD_Card_Audio_Player</name>
+	<comment></comment>
+	<projects>
+		<project>altera.components</project>
+		<project>DE2_115_SD_Card_Audio_Player_syslib</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.altera.ide.core.alterabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.codan.core.codanBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>com.altera.ide.core.AlteraNios2Nature</nature>
+		<nature>com.altera.ide.core.AlteraApplicationNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.codan.core.codanNature</nature>
+	</natures>
+</projectDescription>

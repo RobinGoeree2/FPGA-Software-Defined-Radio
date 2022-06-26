@@ -1,0 +1,13 @@
+/*
+ * altera_avalon_timer.h
+ *
+ *  Created on: Jun 7, 2022
+ *      Author: Robin
+ */
+
+#ifndef INC_SYS_ALTERA_AVALON_TIMER_H_
+#define INC_SYS_ALTERA_AVALON_TIMER_H_
+
+
+
+#endif /* INC_SYS_ALTERA_AVALON_TIMER_H_ */
