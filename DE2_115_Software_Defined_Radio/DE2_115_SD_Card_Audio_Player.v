@@ -39,6 +39,13 @@
 //   Ver  :| Author            :| Mod. Date :| Changes Made:
 //   V1.0 :| Ya-qun chang      :| 04/06/2010:| Inital  Revision
 // --------------------------------------------------------------------
+//
+//
+// History :
+// --------------------------------------------------------------------
+//   Ver  :| Author            :| Mod. Date :| Changes Made:
+//   V2.0 :| Robin Goeree      :| 27/06/2022:| Combining multiple projects into one
+// --------------------------------------------------------------------
 
 module DE2_115_SD_Card_Audio_Player(
 
@@ -79,12 +86,10 @@ module DE2_115_SD_Card_Audio_Player(
 	LCD_RW,
 
 	//////// RS232 //////////
-
-	//////// PS2 //////////
-	PS2_CLK,
-	PS2_DAT,
-	PS2_CLK2,
-	PS2_DAT2,
+	UART_CTS,
+	UART_RTS,
+	UART_RXD,
+	UART_TXD,
 
 	//////// SDCARD //////////
 	SD_CLK,
@@ -117,62 +122,6 @@ module DE2_115_SD_Card_Audio_Player(
 	//////// I2C for Audio and Tv-Decode //////////
 	I2C_SCLK,
 	I2C_SDAT,
-
-	//////// Ethernet 0 //////////
-	ENET0_GTX_CLK,
-	ENET0_INT_N,
-	ENET0_MDC,
-	ENET0_MDIO,
-	ENET0_RST_N,
-	ENET0_RX_CLK,
-	ENET0_RX_COL,
-	ENET0_RX_CRS,
-	ENET0_RX_DATA,
-	ENET0_RX_DV,
-	ENET0_RX_ER,
-	ENET0_TX_CLK,
-	ENET0_TX_DATA,
-	ENET0_TX_EN,
-	ENET0_TX_ER,
-	ENET0_LINK100,
-
-	//////// Ethernet 1 //////////
-	ENET1_GTX_CLK,
-	ENET1_INT_N,
-	ENET1_MDC,
-	ENET1_MDIO,
-	ENET1_RST_N,
-	ENET1_RX_CLK,
-	ENET1_RX_COL,
-	ENET1_RX_CRS,
-	ENET1_RX_DATA,
-	ENET1_RX_DV,
-	ENET1_RX_ER,
-	ENET1_TX_CLK,
-	ENET1_TX_DATA,
-	ENET1_TX_EN,
-	ENET1_TX_ER,
-	ENET1_LINK100,
-
-	//////// TV Decoder //////////
-	TD_CLK27,
-	TD_DATA,
-	TD_HS,
-	TD_RESET_N,
-	TD_VS,
-
-    /////// USB OTG controller
-   OTG_DATA,
-   OTG_ADDR,
-   OTG_CS_N,
-   OTG_WR_N,
-   OTG_RD_N,
-   OTG_INT,
-   OTG_RST_N,
-   OTG_DREQ,
-   OTG_DACK_N,
-   OTG_FSPEED,
-   OTG_LSPEED,
 	
 	//////// IR Receiver //////////
 	IRDA_RXD,
@@ -208,9 +157,6 @@ module DE2_115_SD_Card_Audio_Player(
 	FL_WE_N,
 	FL_WP_N,
 
-	//////// GPIO //////////
-	GPIO,
-
 	//////// HSMC //////////
 	AD_SCLK,
 	AD_SDIO,
@@ -242,9 +188,6 @@ module DE2_115_SD_Card_Audio_Player(
 	J1_152,
 	XT_IN_N,
 	XT_IN_P, 
-	
-   //////// EXTEND IO //////////
-   EX_IO	
 );
 
 //=======================================================
@@ -293,13 +236,10 @@ output		          		LCD_RS;
 output		          		LCD_RW;
 
 //////////// RS232 //////////
-
-
-//////////// PS2 //////////
-inout		          			PS2_CLK;
-inout		          			PS2_DAT;
-inout		          			PS2_CLK2;
-inout		          			PS2_DAT2;
+output		          		UART_CTS;
+input		          			UART_RTS;
+input		          			UART_RXD;
+output		          		UART_TXD;
 
 //////////// SDCARD //////////
 output		          		SD_CLK;
@@ -333,64 +273,8 @@ inout		          			EEP_I2C_SDAT;
 output		          		I2C_SCLK;
 inout		          			I2C_SDAT;
 
-//////////// Ethernet 0 //////////
-output		          		ENET0_GTX_CLK;
-input		          			ENET0_INT_N;
-output		          		ENET0_MDC;
-inout		          			ENET0_MDIO;
-output		          		ENET0_RST_N;
-input		          			ENET0_RX_CLK;
-input		          			ENET0_RX_COL;
-input		          			ENET0_RX_CRS;
-input		     	  [3:0]		ENET0_RX_DATA;
-input		          			ENET0_RX_DV;
-input		          			ENET0_RX_ER;
-input		          			ENET0_TX_CLK;
-output		     [3:0]		ENET0_TX_DATA;
-output		          		ENET0_TX_EN;
-output		          		ENET0_TX_ER;
-input		          			ENET0_LINK100;
-
-//////////// Ethernet 1 //////////
-output		          		ENET1_GTX_CLK;
-input		          			ENET1_INT_N;
-output		          		ENET1_MDC;
-inout		          			ENET1_MDIO;
-output		          		ENET1_RST_N;
-input		          			ENET1_RX_CLK;
-input		          			ENET1_RX_COL;
-input		          			ENET1_RX_CRS;
-input		     	  [3:0]		ENET1_RX_DATA;
-input		          			ENET1_RX_DV;
-input		          			ENET1_RX_ER;
-input		          			ENET1_TX_CLK;
-output		     [3:0]		ENET1_TX_DATA;
-output		          		ENET1_TX_EN;
-output		          		ENET1_TX_ER;
-input		          			ENET1_LINK100;
-
-//////////// TV Decoder 1 //////////
-input		          			TD_CLK27;
-input		     	  [7:0]		TD_DATA;
-input		          			TD_HS;
-output		          		TD_RESET_N;
-input		          			TD_VS;
-
-//////////// USB OTG controller //////////
-inout            [15:0]     OTG_DATA;
-output           [1:0]      OTG_ADDR;
-output                      OTG_CS_N;
-output                      OTG_WR_N;
-output                      OTG_RD_N;
-input            [1:0]      OTG_INT;
-output                      OTG_RST_N;
-input            [1:0]      OTG_DREQ;
-output           [1:0]      OTG_DACK_N;
-inout                       OTG_FSPEED;
-inout                       OTG_LSPEED;
-
 //////////// IR Receiver //////////
-input		          		IRDA_RXD;
+input		          			IRDA_RXD;
 
 //////////// SDRAM //////////
 output		     [12:0]		DRAM_ADDR;
@@ -423,43 +307,37 @@ input		          		   FL_RY;
 output		          		FL_WE_N;
 output		          		FL_WP_N;
 
-//////////// GPIO //////////
-inout		    	  [35:0]		GPIO;
-
 //////////// HSMC //////////
-inout		          		AD_SCLK;
-inout		          		AD_SDIO;
-input		    [13:0]		ADA_D;
-input		          		ADA_DCO;
-output		          	ADA_OE;
-input		          		ADA_OR;
-output		          	ADA_SPI_CS;
-input		    [13:0]		ADB_D;
-input		          		ADB_DCO;
-output		          	ADB_OE;
-input		          		ADB_OR;
-output		          	ADB_SPI_CS;
-inout		          		AIC_BCLK;
-output		          	AIC_DIN;
-input		          		AIC_DOUT;
-inout		          		AIC_LRCIN;
-inout		          		AIC_LRCOUT;
-output		          	AIC_SPI_CS;
-output		          	AIC_XCLK;
-input		          		CLKIN1;
-output		          	CLKOUT0;
-output		    [13:0]	DA;
-output		    [13:0]	DB;
-inout		          		FPGA_CLK_A_N;
-inout		          		FPGA_CLK_A_P;
-inout		          		FPGA_CLK_B_N;
-inout		          		FPGA_CLK_B_P;
-inout		          		J1_152;
-input		          		XT_IN_N;
-input		          		XT_IN_P;
-
-//////// EXTEND IO //////////
-inout		    	  [6:0]		EX_IO;
+inout		    	      		AD_SCLK;
+inout		    	      		AD_SDIO;
+input		    		[13:0]	ADA_D;
+input		    	      		ADA_DCO;
+output		 	         	ADA_OE;
+input		   	       		ADA_OR;
+output			          	ADA_SPI_CS;
+input		   	 	[13:0]	ADB_D;
+input		   	       		ADB_DCO;
+output		 	         	ADB_OE;
+input		   	       		ADB_OR;
+output		 	         	ADB_SPI_CS;
+inout		    	      		AIC_BCLK;
+output		 	         	AIC_DIN;
+input		    	      		AIC_DOUT;
+inout		     	 	    		AIC_LRCIN;
+inout		      	    		AIC_LRCOUT;
+output		  		        	AIC_SPI_CS;
+output		   	       	AIC_XCLK;
+input		       	   		CLKIN1;
+output		    	      	CLKOUT0;
+output		    	[13:0]	DA;
+output		    	[13:0]	DB;
+inout		       	   		FPGA_CLK_A_N;
+inout		       	   		FPGA_CLK_A_P;
+inout		       	   		FPGA_CLK_B_N;
+inout		       	   		FPGA_CLK_B_P;
+inout		       	   		J1_152;
+input		       	   		XT_IN_N;
+input		        		  		XT_IN_P;
 
 
 //=======================================================
@@ -495,7 +373,6 @@ wire HEX5P;
 wire HEX6P;
 wire HEX7P;
 
-
 //=======================================================
 //  Structural coding
 //=======================================================
@@ -523,7 +400,7 @@ assign OTG_DATA   		= 16'hzzzz;
 
 assign FL_DQ        		= 8'hzz;
 
-//--- globa signal assign
+//--- global signal assign
 assign	reset_n			= KEY[3];
 assign 	reset_n1 		= 1'b1;
 
@@ -531,15 +408,6 @@ assign	FPGA_CLK_A_P	=  sys_clk_180deg;
 assign	FPGA_CLK_A_N	= ~sys_clk_180deg;
 assign	FPGA_CLK_B_P	=  sys_clk_270deg;
 assign	FPGA_CLK_B_N	= ~sys_clk_270deg;
-
-//assign	LEDG[0]			= pll_locked;		// pll locked
-//assign	LEDG[1]			= SW[0];			// (DFS)Data Format Select indicator
-//assign	LEDG[2]			= SW[1];			// (DCS)Duty Cycle Stabilizer Select indicator
-//assign	LEDG[3]			= !SW[2] ? ADA_OR : ADB_OR;	// Out-of-Range indicator
-//assign	LEDG[4]			= ~KEY[0];			// reset 1MHz NCO output indicator
-//assign	LEDG[5]			= ~KEY[1];			// reset 10MHz NCO output indicator
-//assign	LEDG[6]			= SW[2];			// channel A or B indicator
-//assign	LEDG[7]			= count[24];		// heartbeat
 
  // assign for ADC control signal
 assign	AD_SCLK			= 1'b1;			// (DFS)Data Format Select
@@ -553,10 +421,8 @@ assign	ADB_SPI_CS		= 1'b1;				// disable ADB_SPI_CS (CSB)
 assign	DA = o_sine_p;
 assign	DB = o_sine_n;
 
-//assign	HEX0_D			= 7'b000_1110; 				//setting F to 7segment hex0
-
 DE2_115_SOPC DE2_115_SOPC_inst(
-                      // 1) global signals:
+                      // global signals:
                        .clk_50(OSC_50[0]),
                        .reset_n(reset_n1),
                        .altpll_25(VGA_CLK),
@@ -635,17 +501,7 @@ DE2_115_SOPC DE2_115_SOPC_inst(
                        .bidir_port_to_and_from_the_sd_dat(SD_DAT),
                        .in_port_to_the_sd_wp_n(SD_WP_N),
                        
-                     // the_usb
-                       .USB_INT1_to_the_usb(OTG_INT[1]),
-                       .USB_ADDR_from_the_usb(OTG_ADDR),
-                       .USB_CS_N_from_the_usb(OTG_CS_N),
-                       .USB_DATA_to_and_from_the_usb(OTG_DATA),
-                       .USB_INT0_to_the_usb(OTG_INT[0]),
-                       .USB_RD_N_from_the_usb(OTG_RD_N),
-                       .USB_RST_N_from_the_usb(OTG_RST_N),
-                       .USB_WR_N_from_the_usb(OTG_WR_N),
-                       
-					 //IrDA
+							//IrDA
                        .ir_to_the_Terasic_IrDA_0(IRDA_RXD)
                     );
 
@@ -653,7 +509,6 @@ DE2_115_SOPC DE2_115_SOPC_inst(
 assign	FL_RST_N = reset_n1;
 assign	FL_WP_N = 1'b1;
 
-///////////////////////////////////////////
 // LCD config
 assign LCD_BLON = 0; // not supported
 assign LCD_ON = 1'b1; // alwasy on
@@ -662,12 +517,6 @@ wire io_dir;
 wire action;
 assign io_dir = KEY[0] & action;
 
-///////////////////////////////////////////
-// GPIO
-assign GPIO[17:0] = (io_dir)?GPIO[35:18]:18'hz;
-assign GPIO[35:18] = (io_dir)?GPIO[17:0]:18'hz;
-
-///////////////////////////////////////////
 //--- pll
 pll pll_inst(
 			.inclk0(OSC_50[0]),
@@ -741,37 +590,5 @@ a2d_data_b	a2d_data_b_inst(
 fir_out		fir_out_inst(
 	.probe(fir_data),
 	.source());
-
-///////////////////////////////////////////
-// NET
-assign ENET0_GTX_CLK = ENET0_INT_N;
-assign ENET0_MDC = ENET0_RX_COL;
-assign ENET0_RST_N = ENET0_RX_CRS;
-assign ENET0_TX_DATA = ENET0_RX_DATA;
-assign ENET0_TX_EN = ENET0_RX_ER;
-assign ENET0_TX_ER = ENET0_TX_CLK;
-
-assign ENET1_GTX_CLK = ENET1_INT_N;
-assign ENET1_MDC = ENET1_RX_COL;
-assign ENET1_RST_N = ENET1_RX_CRS;
-assign ENET1_TX_DATA = ENET1_RX_DATA;
-assign ENET1_TX_EN = ENET1_RX_ER;
-assign ENET1_TX_ER = ENET1_TX_CLK;
-
-///////////////////////////////////////////
-// USB OTG                      
-assign OTG_DACK_N = OTG_DREQ;
-assign OTG_FSPEED = 1'b1;
-assign OTG_LSPEED = 1'b0;
-
-///////////////////////////////////////////
-// TV
-assign TD_RESET_N = TD_VS;
-assign action = FL_RY & TD_HS & TD_CLK27 & (TD_DATA == 8'hff);
-
-///////////////////////////////////////////
-// ps2
-assign PS2_CLK = PS2_DAT;
-assign PS2_CLK2 = PS2_DAT2;
 
 endmodule
