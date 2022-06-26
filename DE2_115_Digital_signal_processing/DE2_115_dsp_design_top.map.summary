@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Sun Jun 26 15:40:47 2022
+Analysis & Synthesis Status : Successful - Mon Jun 27 00:43:29 2022
 Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 Revision Name : DE2_115_dsp_design_top
 Top-level Entity Name : DE2_115_dsp_design_top
 Family : Cyclone IV E
-Total logic elements : 4,720
-    Total combinational functions : 3,748
-    Dedicated logic registers : 4,231
-Total registers : 4231
-Total pins : 482
+Total logic elements : 4,695
+    Total combinational functions : 3,723
+    Dedicated logic registers : 4,206
+Total registers : 4206
+Total pins : 344
 Total virtual pins : 0
 Total memory bits : 688,240
 Embedded Multiplier 9-bit elements : 0

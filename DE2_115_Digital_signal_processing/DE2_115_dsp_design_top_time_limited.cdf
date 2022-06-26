@@ -3,8 +3,8 @@ JedecChain;
 	FileRevision(JESD32A);
 	DefaultMfr(6E);
 
-	P ActionCode(Ign)
-		Device PartName(EP4CE115F29) MfrSpec(OpMask(0) FullPath("C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/DE2_115_dsp_design_top_time_limited.sof"));
+	P ActionCode(Cfg)
+		Device PartName(EP4CE115F29) Path("C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/") File("DE2_115_dsp_design_top_time_limited.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

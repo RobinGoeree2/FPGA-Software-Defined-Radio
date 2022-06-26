@@ -1,5 +1,5 @@
 Flow report for DE2_115_dsp_design_top
-Sun Jun 26 15:41:29 2022
+Mon Jun 27 00:44:09 2022
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -41,18 +41,18 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sun Jun 26 15:41:24 2022       ;
+; Flow Status                        ; Successful - Mon Jun 27 00:44:04 2022       ;
 ; Quartus Prime Version              ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
 ; Revision Name                      ; DE2_115_dsp_design_top                      ;
 ; Top-level Entity Name              ; DE2_115_dsp_design_top                      ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 4,647 / 114,480 ( 4 % )                     ;
-;     Total combinational functions  ; 3,765 / 114,480 ( 3 % )                     ;
-;     Dedicated logic registers      ; 4,231 / 114,480 ( 4 % )                     ;
-; Total registers                    ; 4231                                        ;
-; Total pins                         ; 482 / 529 ( 91 % )                          ;
+; Total logic elements               ; 4,616 / 114,480 ( 4 % )                     ;
+;     Total combinational functions  ; 3,740 / 114,480 ( 3 % )                     ;
+;     Dedicated logic registers      ; 4,206 / 114,480 ( 4 % )                     ;
+; Total registers                    ; 4206                                        ;
+; Total pins                         ; 344 / 529 ( 65 % )                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 688,240 / 3,981,312 ( 17 % )                ;
 ; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                             ;
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+------------------------+
 ; Option            ; Setting                ;
 +-------------------+------------------------+
-; Start date & time ; 06/26/2022 15:40:07    ;
+; Start date & time ; 06/27/2022 00:42:49    ;
 ; Main task         ; Compilation            ;
 ; Revision Name     ; DE2_115_dsp_design_top ;
 +-------------------+------------------------+
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
 ; Assignment Name                     ; Value                                                                                                                                                                         ; Default Value ; Entity Name ; Section Id       ;
 +-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
-; COMPILER_SIGNATURE_ID               ; 145320168748674.165625080628824                                                                                                                                               ; --            ; --          ; --               ;
+; COMPILER_SIGNATURE_ID               ; 145320168748674.165628336920364                                                                                                                                               ; --            ; --          ; --               ;
 ; ENABLE_SIGNALTAP                    ; On                                                                                                                                                                            ; --            ; --          ; --               ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                                                                                                                                            ; --            ; --          ; --               ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                                                                                                                                             ; --            ; --          ; --               ;
@@ -534,11 +534,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:39     ; 1.0                     ; 4979 MB             ; 00:00:58                           ;
-; Fitter               ; 00:00:28     ; 1.2                     ; 6410 MB             ; 00:00:45                           ;
-; Assembler            ; 00:00:05     ; 1.0                     ; 4745 MB             ; 00:00:05                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.5                     ; 5028 MB             ; 00:00:05                           ;
-; Total                ; 00:01:16     ; --                      ; --                  ; 00:01:53                           ;
+; Analysis & Synthesis ; 00:00:39     ; 1.0                     ; 4995 MB             ; 00:00:56                           ;
+; Fitter               ; 00:00:26     ; 1.2                     ; 6423 MB             ; 00:00:46                           ;
+; Assembler            ; 00:00:05     ; 1.0                     ; 4737 MB             ; 00:00:05                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.5                     ; 5015 MB             ; 00:00:05                           ;
+; Total                ; 00:01:14     ; --                      ; --                  ; 00:01:52                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
