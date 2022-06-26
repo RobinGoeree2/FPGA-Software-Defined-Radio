@@ -454,25 +454,25 @@ inout		          		AD_SCLK;
 inout		          		AD_SDIO;
 input		    [13:0]		ADA_D;
 input		          		ADA_DCO;
-output		          		ADA_OE;
+output		          	ADA_OE;
 input		          		ADA_OR;
-output		          		ADA_SPI_CS;
+output		          	ADA_SPI_CS;
 input		    [13:0]		ADB_D;
 input		          		ADB_DCO;
-output		          		ADB_OE;
+output		          	ADB_OE;
 input		          		ADB_OR;
-output		          		ADB_SPI_CS;
+output		          	ADB_SPI_CS;
 inout		          		AIC_BCLK;
-output		          		AIC_DIN;
+output		          	AIC_DIN;
 input		          		AIC_DOUT;
 inout		          		AIC_LRCIN;
 inout		          		AIC_LRCOUT;
-output		          		AIC_SPI_CS;
-output		          		AIC_XCLK;
+output		          	AIC_SPI_CS;
+output		          	AIC_XCLK;
 input		          		CLKIN1;
-output		          		CLKOUT0;
-output		    [13:0]		DA;
-output		    [13:0]		DB;
+output		          	CLKOUT0;
+output		    [13:0]	DA;
+output		    [13:0]	DB;
 inout		          		FPGA_CLK_A_N;
 inout		          		FPGA_CLK_A_P;
 inout		          		FPGA_CLK_B_N;
@@ -746,7 +746,6 @@ FIR_3MHz_low	FIR_3MHz_low_inst (
 			.ast_source_error()
 			);
 
-
 //--- count for Heartbeat
 reg		[31:0]				count;
 always @(negedge reset_n or posedge sys_clk)
@@ -758,7 +757,6 @@ begin
 		count	<= count + 1'b1;
 	end
 end
-
 
 //--- probe points for data capture
 //sine_1		sin1_inst(

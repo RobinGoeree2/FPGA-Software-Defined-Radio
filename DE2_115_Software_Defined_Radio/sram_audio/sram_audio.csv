@@ -1,0 +1,18 @@
+# system info sram_audio on 2022.05.30.14:12:50
+system_info:
+name,value
+DEVICE,EP4CE115F29C7
+DEVICE_FAMILY,Cyclone IV E
+GENERATION_ID,1653912769
+#
+#
+# Files generated for sram_audio on 2022.05.30.14:12:50
+files:
+filepath,kind,attributes,module,is_top
+simulation/sram_audio.v,VERILOG,,sram_audio,true
+simulation/submodules/sram_audio_sram_0.v,VERILOG,,sram_audio_sram_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+sram_audio.sram_0,sram_audio_sram_0

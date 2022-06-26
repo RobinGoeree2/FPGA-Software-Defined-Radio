@@ -1,5 +1,5 @@
 Fitter report for DE2_115_dsp_design_top
-Tue May 31 10:55:54 2022
+Sun Jun 26 15:41:17 2022
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Tue May 31 10:55:54 2022       ;
+; Fitter Status                      ; Successful - Sun Jun 26 15:41:17 2022       ;
 ; Quartus Prime Version              ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
 ; Revision Name                      ; DE2_115_dsp_design_top                      ;
 ; Top-level Entity Name              ; DE2_115_dsp_design_top                      ;
@@ -165,12 +165,12 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   2.2%      ;
+;     Processor 2            ;   2.3%      ;
 ;     Processor 3            ;   2.0%      ;
 ;     Processor 4            ;   1.9%      ;
 ;     Processor 5            ;   1.8%      ;
 ;     Processor 6            ;   1.8%      ;
-;     Processor 7            ;   1.7%      ;
+;     Processor 7            ;   1.8%      ;
 ;     Processor 8            ;   1.7%      ;
 ;     Processors 9-12        ;   1.5%      ;
 +----------------------------+-------------+
@@ -242,7 +242,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/DE2_115_dsp_design_top.pin.
+The pin-out file can be found in C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/DE2_115_dsp_design_top.pin.
 
 
 +----------------------------------------------------------------------------+
@@ -4880,10 +4880,10 @@ Info (20030): Parallel compilation is enabled and will use 12 of the 12 processo
 Info (119006): Selected device EP4CE115F29C7 for design "DE2_115_dsp_design_top"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
-Info (15535): Implemented PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" as Cyclone IV E PLL type File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/db/pll_altpll.v Line: 46
-    Info (15099): Implementing clock multiplication of 2, clock division of 1, and phase shift of 0 degrees (0 ps) for pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] port File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/db/pll_altpll.v Line: 46
-    Info (15099): Implementing clock multiplication of 2, clock division of 1, and phase shift of 180 degrees (5000 ps) for pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[2] port File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/db/pll_altpll.v Line: 46
-    Info (15099): Implementing clock multiplication of 2, clock division of 1, and phase shift of 270 degrees (7500 ps) for pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[3] port File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/db/pll_altpll.v Line: 46
+Info (15535): Implemented PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" as Cyclone IV E PLL type File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/db/pll_altpll.v Line: 46
+    Info (15099): Implementing clock multiplication of 2, clock division of 1, and phase shift of 0 degrees (0 ps) for pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] port File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/db/pll_altpll.v Line: 46
+    Info (15099): Implementing clock multiplication of 2, clock division of 1, and phase shift of 180 degrees (5000 ps) for pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[2] port File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/db/pll_altpll.v Line: 46
+    Info (15099): Implementing clock multiplication of 2, clock division of 1, and phase shift of 270 degrees (7500 ps) for pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[3] port File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/db/pll_altpll.v Line: 46
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
 Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
@@ -4944,13 +4944,13 @@ Info (332111): Found 13 clocks
     Info (332111):   10.000 pll_inst|altpll_component|auto_generated|pll1|clk[0]
     Info (332111):   10.000 pll_inst|altpll_component|auto_generated|pll1|clk[2]
     Info (332111):   10.000 pll_inst|altpll_component|auto_generated|pll1|clk[3]
-Info (176353): Automatically promoted node pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_1) File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/db/pll_altpll.v Line: 81
+Info (176353): Automatically promoted node pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_1) File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/db/pll_altpll.v Line: 81
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G3
-Info (176353): Automatically promoted node pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[2] (placed in counter C1 of PLL_1) File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/db/pll_altpll.v Line: 81
+Info (176353): Automatically promoted node pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[2] (placed in counter C1 of PLL_1) File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/db/pll_altpll.v Line: 81
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G4
-Info (176353): Automatically promoted node pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[3] (placed in counter C2 of PLL_1) File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/db/pll_altpll.v Line: 81
+Info (176353): Automatically promoted node pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[3] (placed in counter C2 of PLL_1) File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/db/pll_altpll.v Line: 81
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G2
-Info (176353): Automatically promoted node ADA_DCO~input (placed in PIN Y27 (CLK6, DIFFCLK_3p)) File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 456
+Info (176353): Automatically promoted node ADA_DCO~input (placed in PIN Y27 (CLK6, DIFFCLK_3p)) File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 456
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G9
 Info (176353): Automatically promoted node altera_internal_jtag~TCKUTAP 
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
@@ -4969,10 +4969,10 @@ Info (176353): Automatically promoted node sld_signaltap:auto_signaltap_0|sld_si
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Warning (15064): PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" output port clk[2] feeds output pin "FPGA_CLK_A_P~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/db/pll_altpll.v Line: 46
-Warning (15064): PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" output port clk[2] feeds output pin "FPGA_CLK_A_N~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/db/pll_altpll.v Line: 46
-Warning (15064): PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" output port clk[3] feeds output pin "FPGA_CLK_B_P~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/db/pll_altpll.v Line: 46
-Warning (15064): PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" output port clk[3] feeds output pin "FPGA_CLK_B_N~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/db/pll_altpll.v Line: 46
+Warning (15064): PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" output port clk[2] feeds output pin "FPGA_CLK_A_P~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/db/pll_altpll.v Line: 46
+Warning (15064): PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" output port clk[2] feeds output pin "FPGA_CLK_A_N~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/db/pll_altpll.v Line: 46
+Warning (15064): PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" output port clk[3] feeds output pin "FPGA_CLK_B_P~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/db/pll_altpll.v Line: 46
+Warning (15064): PLL "pll:pll_inst|altpll:altpll_component|pll_altpll:auto_generated|pll1" output port clk[3] feeds output pin "FPGA_CLK_B_N~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/db/pll_altpll.v Line: 46
 Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "EX_IO[0]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "EX_IO[1]" is assigned to location or region, but does not exist in design
@@ -4995,7 +4995,7 @@ Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:03
-Info (11888): Total time spent on timing analysis during the Fitter is 2.27 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 2.36 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -5003,253 +5003,253 @@ Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:03
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (169177): 127 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing Cyclone IV E Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
-    Info (169178): Pin OSC_50[1] uses I/O standard 3.3-V LVTTL at AG14 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 283
-    Info (169178): Pin OSC_50[2] uses I/O standard 3.3-V LVTTL at AG15 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 283
-    Info (169178): Pin SMA_CLKIN uses I/O standard 3.3-V LVTTL at AH14 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 286
-    Info (169178): Pin UART_RTS uses I/O standard 3.3-V LVTTL at J13 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 319
-    Info (169178): Pin UART_RXD uses I/O standard 3.3-V LVTTL at G12 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 320
-    Info (169178): Pin SD_WP_n uses I/O standard 3.3-V LVTTL at AF14 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 333
-    Info (169178): Pin AUD_ADCDAT uses I/O standard 3.3-V LVTTL at D2 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 346
-    Info (169178): Pin NET0_LINK100 uses I/O standard 3.3-V LVTTL at C14 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 364
-    Info (169178): Pin NETCLK_25 uses I/O standard 3.3-V LVTTL at A14 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 378
-    Info (169178): Pin NET1_LINK100 uses I/O standard 3.3-V LVTTL at D13 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 383
-    Info (169178): Pin TD0_CLK27 uses I/O standard 3.3-V LVTTL at B14 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 399
-    Info (169178): Pin TD0_DATA[0] uses I/O standard 3.3-V LVTTL at E8 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 400
-    Info (169178): Pin TD0_DATA[1] uses I/O standard 3.3-V LVTTL at A7 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 400
-    Info (169178): Pin TD0_DATA[2] uses I/O standard 3.3-V LVTTL at D8 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 400
-    Info (169178): Pin TD0_DATA[3] uses I/O standard 3.3-V LVTTL at C7 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 400
-    Info (169178): Pin TD0_DATA[4] uses I/O standard 3.3-V LVTTL at D7 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 400
-    Info (169178): Pin TD0_DATA[5] uses I/O standard 3.3-V LVTTL at D6 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 400
-    Info (169178): Pin TD0_DATA[6] uses I/O standard 3.3-V LVTTL at E7 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 400
-    Info (169178): Pin TD0_DATA[7] uses I/O standard 3.3-V LVTTL at F7 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 400
-    Info (169178): Pin TD0_HS uses I/O standard 3.3-V LVTTL at E5 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 401
-    Info (169178): Pin TD0_VS uses I/O standard 3.3-V LVTTL at E4 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 403
-    Info (169178): Pin OTG_A[0] uses I/O standard 3.3-V LVTTL at H7 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 406
-    Info (169178): Pin OTG_A[1] uses I/O standard 3.3-V LVTTL at C3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 406
-    Info (169178): Pin OTG_DREQ[0] uses I/O standard 3.3-V LVTTL at J1 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 410
-    Info (169178): Pin OTG_DREQ[1] uses I/O standard 3.3-V LVTTL at B4 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 410
-    Info (169178): Pin OTG_INT[0] uses I/O standard 3.3-V LVTTL at A6 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 412
-    Info (169178): Pin OTG_INT[1] uses I/O standard 3.3-V LVTTL at D5 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 412
-    Info (169178): Pin IRDA_RXD uses I/O standard 3.3-V LVTTL at Y15 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 419
-    Info (169178): Pin FLASH_RY uses I/O standard 3.3-V LVTTL at Y1 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 448
-    Info (169178): Pin CLKIN1 uses I/O standard 2.5 V at AH15 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 472
-    Info (169178): Pin LCD_DATA[0] uses I/O standard 3.3-V LVTTL at L3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169178): Pin LCD_DATA[1] uses I/O standard 3.3-V LVTTL at L1 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169178): Pin LCD_DATA[2] uses I/O standard 3.3-V LVTTL at L2 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169178): Pin LCD_DATA[3] uses I/O standard 3.3-V LVTTL at K7 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169178): Pin LCD_DATA[4] uses I/O standard 3.3-V LVTTL at K1 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169178): Pin LCD_DATA[5] uses I/O standard 3.3-V LVTTL at K2 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169178): Pin LCD_DATA[6] uses I/O standard 3.3-V LVTTL at M3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169178): Pin LCD_DATA[7] uses I/O standard 3.3-V LVTTL at M5 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169178): Pin PS2_KBCLK uses I/O standard 3.3-V LVTTL at G6 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 324
-    Info (169178): Pin PS2_KBDAT uses I/O standard 3.3-V LVTTL at H5 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 325
-    Info (169178): Pin PS2_MSCLK uses I/O standard 3.3-V LVTTL at G5 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 326
-    Info (169178): Pin PS2_MSDAT uses I/O standard 3.3-V LVTTL at F5 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 327
-    Info (169178): Pin OTG_FSPEED uses I/O standard 3.3-V LVTTL at C6 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 411
-    Info (169178): Pin OTG_LSPEED uses I/O standard 3.3-V LVTTL at B6 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 413
-    Info (169178): Pin SRAM_DQ[0] uses I/O standard 3.3-V LVTTL at AH3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SRAM_DQ[1] uses I/O standard 3.3-V LVTTL at AF4 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SRAM_DQ[2] uses I/O standard 3.3-V LVTTL at AG4 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SRAM_DQ[3] uses I/O standard 3.3-V LVTTL at AH4 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SRAM_DQ[4] uses I/O standard 3.3-V LVTTL at AF6 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SRAM_DQ[5] uses I/O standard 3.3-V LVTTL at AG6 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SRAM_DQ[6] uses I/O standard 3.3-V LVTTL at AH6 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SRAM_DQ[7] uses I/O standard 3.3-V LVTTL at AF7 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SRAM_DQ[8] uses I/O standard 3.3-V LVTTL at AD1 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SRAM_DQ[9] uses I/O standard 3.3-V LVTTL at AD2 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SRAM_DQ[10] uses I/O standard 3.3-V LVTTL at AE2 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SRAM_DQ[11] uses I/O standard 3.3-V LVTTL at AE1 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SRAM_DQ[12] uses I/O standard 3.3-V LVTTL at AE3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SRAM_DQ[13] uses I/O standard 3.3-V LVTTL at AE4 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SRAM_DQ[14] uses I/O standard 3.3-V LVTTL at AF3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SRAM_DQ[15] uses I/O standard 3.3-V LVTTL at AG3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169178): Pin SD_CMD uses I/O standard 3.3-V LVTTL at AD14 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 331
-    Info (169178): Pin SD_DAT[0] uses I/O standard 3.3-V LVTTL at AE14 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 332
-    Info (169178): Pin SD_DAT[1] uses I/O standard 3.3-V LVTTL at AF13 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 332
-    Info (169178): Pin SD_DAT[2] uses I/O standard 3.3-V LVTTL at AB14 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 332
-    Info (169178): Pin SD_DAT[3] uses I/O standard 3.3-V LVTTL at AC14 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 332
-    Info (169178): Pin AUD_ADCLRCK uses I/O standard 3.3-V LVTTL at C2 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 347
-    Info (169178): Pin AUD_BCLK uses I/O standard 3.3-V LVTTL at F2 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 348
-    Info (169178): Pin AUD_DACLRCK uses I/O standard 3.3-V LVTTL at E3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 350
-    Info (169178): Pin EEP_I2C_SDA uses I/O standard 3.3-V LVTTL at E14 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 355
-    Info (169178): Pin I2C_SDA uses I/O standard 3.3-V LVTTL at A8 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 359
-    Info (169178): Pin OTG_DATA[0] uses I/O standard 3.3-V LVTTL at J6 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin OTG_DATA[1] uses I/O standard 3.3-V LVTTL at K4 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin OTG_DATA[2] uses I/O standard 3.3-V LVTTL at J5 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin OTG_DATA[3] uses I/O standard 3.3-V LVTTL at K3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin OTG_DATA[4] uses I/O standard 3.3-V LVTTL at J4 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin OTG_DATA[5] uses I/O standard 3.3-V LVTTL at J3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin OTG_DATA[6] uses I/O standard 3.3-V LVTTL at J7 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin OTG_DATA[7] uses I/O standard 3.3-V LVTTL at H6 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin OTG_DATA[8] uses I/O standard 3.3-V LVTTL at H3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin OTG_DATA[9] uses I/O standard 3.3-V LVTTL at H4 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin OTG_DATA[10] uses I/O standard 3.3-V LVTTL at G1 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin OTG_DATA[11] uses I/O standard 3.3-V LVTTL at G2 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin OTG_DATA[12] uses I/O standard 3.3-V LVTTL at G3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin OTG_DATA[13] uses I/O standard 3.3-V LVTTL at F1 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin OTG_DATA[14] uses I/O standard 3.3-V LVTTL at F3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin OTG_DATA[15] uses I/O standard 3.3-V LVTTL at G4 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169178): Pin DRAM_DQ[0] uses I/O standard 3.3-V LVTTL at W3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[1] uses I/O standard 3.3-V LVTTL at W2 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[2] uses I/O standard 3.3-V LVTTL at V4 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[3] uses I/O standard 3.3-V LVTTL at W1 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[4] uses I/O standard 3.3-V LVTTL at V3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[5] uses I/O standard 3.3-V LVTTL at V2 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[6] uses I/O standard 3.3-V LVTTL at V1 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[7] uses I/O standard 3.3-V LVTTL at U3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[8] uses I/O standard 3.3-V LVTTL at Y3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[9] uses I/O standard 3.3-V LVTTL at Y4 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[10] uses I/O standard 3.3-V LVTTL at AB1 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[11] uses I/O standard 3.3-V LVTTL at AA3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[12] uses I/O standard 3.3-V LVTTL at AB2 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[13] uses I/O standard 3.3-V LVTTL at AC1 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[14] uses I/O standard 3.3-V LVTTL at AB3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[15] uses I/O standard 3.3-V LVTTL at AC2 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[16] uses I/O standard 3.3-V LVTTL at M8 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[17] uses I/O standard 3.3-V LVTTL at L8 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[18] uses I/O standard 3.3-V LVTTL at P2 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[19] uses I/O standard 3.3-V LVTTL at N3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[20] uses I/O standard 3.3-V LVTTL at N4 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[21] uses I/O standard 3.3-V LVTTL at M4 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[22] uses I/O standard 3.3-V LVTTL at M7 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[23] uses I/O standard 3.3-V LVTTL at L7 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[24] uses I/O standard 3.3-V LVTTL at U5 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[25] uses I/O standard 3.3-V LVTTL at R7 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[26] uses I/O standard 3.3-V LVTTL at R1 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[27] uses I/O standard 3.3-V LVTTL at R2 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[28] uses I/O standard 3.3-V LVTTL at R3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[29] uses I/O standard 3.3-V LVTTL at T3 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[30] uses I/O standard 3.3-V LVTTL at U4 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin DRAM_DQ[31] uses I/O standard 3.3-V LVTTL at U1 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169178): Pin FLASH_DQ[0] uses I/O standard 3.3-V LVTTL at AH8 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169178): Pin FLASH_DQ[1] uses I/O standard 3.3-V LVTTL at AF10 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169178): Pin FLASH_DQ[2] uses I/O standard 3.3-V LVTTL at AG10 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169178): Pin FLASH_DQ[3] uses I/O standard 3.3-V LVTTL at AH10 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169178): Pin FLASH_DQ[4] uses I/O standard 3.3-V LVTTL at AF11 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169178): Pin FLASH_DQ[5] uses I/O standard 3.3-V LVTTL at AG11 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169178): Pin FLASH_DQ[6] uses I/O standard 3.3-V LVTTL at AH11 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169178): Pin FLASH_DQ[7] uses I/O standard 3.3-V LVTTL at AF12 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169178): Pin OSC_50[0] uses I/O standard 3.3-V LVTTL at Y2 File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 283
+    Info (169178): Pin OSC_50[1] uses I/O standard 3.3-V LVTTL at AG14 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 283
+    Info (169178): Pin OSC_50[2] uses I/O standard 3.3-V LVTTL at AG15 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 283
+    Info (169178): Pin SMA_CLKIN uses I/O standard 3.3-V LVTTL at AH14 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 286
+    Info (169178): Pin UART_RTS uses I/O standard 3.3-V LVTTL at J13 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 319
+    Info (169178): Pin UART_RXD uses I/O standard 3.3-V LVTTL at G12 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 320
+    Info (169178): Pin SD_WP_n uses I/O standard 3.3-V LVTTL at AF14 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 333
+    Info (169178): Pin AUD_ADCDAT uses I/O standard 3.3-V LVTTL at D2 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 346
+    Info (169178): Pin NET0_LINK100 uses I/O standard 3.3-V LVTTL at C14 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 364
+    Info (169178): Pin NETCLK_25 uses I/O standard 3.3-V LVTTL at A14 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 378
+    Info (169178): Pin NET1_LINK100 uses I/O standard 3.3-V LVTTL at D13 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 383
+    Info (169178): Pin TD0_CLK27 uses I/O standard 3.3-V LVTTL at B14 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 399
+    Info (169178): Pin TD0_DATA[0] uses I/O standard 3.3-V LVTTL at E8 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 400
+    Info (169178): Pin TD0_DATA[1] uses I/O standard 3.3-V LVTTL at A7 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 400
+    Info (169178): Pin TD0_DATA[2] uses I/O standard 3.3-V LVTTL at D8 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 400
+    Info (169178): Pin TD0_DATA[3] uses I/O standard 3.3-V LVTTL at C7 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 400
+    Info (169178): Pin TD0_DATA[4] uses I/O standard 3.3-V LVTTL at D7 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 400
+    Info (169178): Pin TD0_DATA[5] uses I/O standard 3.3-V LVTTL at D6 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 400
+    Info (169178): Pin TD0_DATA[6] uses I/O standard 3.3-V LVTTL at E7 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 400
+    Info (169178): Pin TD0_DATA[7] uses I/O standard 3.3-V LVTTL at F7 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 400
+    Info (169178): Pin TD0_HS uses I/O standard 3.3-V LVTTL at E5 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 401
+    Info (169178): Pin TD0_VS uses I/O standard 3.3-V LVTTL at E4 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 403
+    Info (169178): Pin OTG_A[0] uses I/O standard 3.3-V LVTTL at H7 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 406
+    Info (169178): Pin OTG_A[1] uses I/O standard 3.3-V LVTTL at C3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 406
+    Info (169178): Pin OTG_DREQ[0] uses I/O standard 3.3-V LVTTL at J1 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 410
+    Info (169178): Pin OTG_DREQ[1] uses I/O standard 3.3-V LVTTL at B4 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 410
+    Info (169178): Pin OTG_INT[0] uses I/O standard 3.3-V LVTTL at A6 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 412
+    Info (169178): Pin OTG_INT[1] uses I/O standard 3.3-V LVTTL at D5 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 412
+    Info (169178): Pin IRDA_RXD uses I/O standard 3.3-V LVTTL at Y15 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 419
+    Info (169178): Pin FLASH_RY uses I/O standard 3.3-V LVTTL at Y1 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 448
+    Info (169178): Pin CLKIN1 uses I/O standard 2.5 V at AH15 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 472
+    Info (169178): Pin LCD_DATA[0] uses I/O standard 3.3-V LVTTL at L3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169178): Pin LCD_DATA[1] uses I/O standard 3.3-V LVTTL at L1 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169178): Pin LCD_DATA[2] uses I/O standard 3.3-V LVTTL at L2 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169178): Pin LCD_DATA[3] uses I/O standard 3.3-V LVTTL at K7 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169178): Pin LCD_DATA[4] uses I/O standard 3.3-V LVTTL at K1 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169178): Pin LCD_DATA[5] uses I/O standard 3.3-V LVTTL at K2 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169178): Pin LCD_DATA[6] uses I/O standard 3.3-V LVTTL at M3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169178): Pin LCD_DATA[7] uses I/O standard 3.3-V LVTTL at M5 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169178): Pin PS2_KBCLK uses I/O standard 3.3-V LVTTL at G6 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 324
+    Info (169178): Pin PS2_KBDAT uses I/O standard 3.3-V LVTTL at H5 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 325
+    Info (169178): Pin PS2_MSCLK uses I/O standard 3.3-V LVTTL at G5 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 326
+    Info (169178): Pin PS2_MSDAT uses I/O standard 3.3-V LVTTL at F5 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 327
+    Info (169178): Pin OTG_FSPEED uses I/O standard 3.3-V LVTTL at C6 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 411
+    Info (169178): Pin OTG_LSPEED uses I/O standard 3.3-V LVTTL at B6 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 413
+    Info (169178): Pin SRAM_DQ[0] uses I/O standard 3.3-V LVTTL at AH3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SRAM_DQ[1] uses I/O standard 3.3-V LVTTL at AF4 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SRAM_DQ[2] uses I/O standard 3.3-V LVTTL at AG4 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SRAM_DQ[3] uses I/O standard 3.3-V LVTTL at AH4 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SRAM_DQ[4] uses I/O standard 3.3-V LVTTL at AF6 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SRAM_DQ[5] uses I/O standard 3.3-V LVTTL at AG6 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SRAM_DQ[6] uses I/O standard 3.3-V LVTTL at AH6 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SRAM_DQ[7] uses I/O standard 3.3-V LVTTL at AF7 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SRAM_DQ[8] uses I/O standard 3.3-V LVTTL at AD1 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SRAM_DQ[9] uses I/O standard 3.3-V LVTTL at AD2 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SRAM_DQ[10] uses I/O standard 3.3-V LVTTL at AE2 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SRAM_DQ[11] uses I/O standard 3.3-V LVTTL at AE1 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SRAM_DQ[12] uses I/O standard 3.3-V LVTTL at AE3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SRAM_DQ[13] uses I/O standard 3.3-V LVTTL at AE4 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SRAM_DQ[14] uses I/O standard 3.3-V LVTTL at AF3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SRAM_DQ[15] uses I/O standard 3.3-V LVTTL at AG3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169178): Pin SD_CMD uses I/O standard 3.3-V LVTTL at AD14 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 331
+    Info (169178): Pin SD_DAT[0] uses I/O standard 3.3-V LVTTL at AE14 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 332
+    Info (169178): Pin SD_DAT[1] uses I/O standard 3.3-V LVTTL at AF13 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 332
+    Info (169178): Pin SD_DAT[2] uses I/O standard 3.3-V LVTTL at AB14 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 332
+    Info (169178): Pin SD_DAT[3] uses I/O standard 3.3-V LVTTL at AC14 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 332
+    Info (169178): Pin AUD_ADCLRCK uses I/O standard 3.3-V LVTTL at C2 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 347
+    Info (169178): Pin AUD_BCLK uses I/O standard 3.3-V LVTTL at F2 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 348
+    Info (169178): Pin AUD_DACLRCK uses I/O standard 3.3-V LVTTL at E3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 350
+    Info (169178): Pin EEP_I2C_SDA uses I/O standard 3.3-V LVTTL at E14 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 355
+    Info (169178): Pin I2C_SDA uses I/O standard 3.3-V LVTTL at A8 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 359
+    Info (169178): Pin OTG_DATA[0] uses I/O standard 3.3-V LVTTL at J6 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin OTG_DATA[1] uses I/O standard 3.3-V LVTTL at K4 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin OTG_DATA[2] uses I/O standard 3.3-V LVTTL at J5 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin OTG_DATA[3] uses I/O standard 3.3-V LVTTL at K3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin OTG_DATA[4] uses I/O standard 3.3-V LVTTL at J4 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin OTG_DATA[5] uses I/O standard 3.3-V LVTTL at J3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin OTG_DATA[6] uses I/O standard 3.3-V LVTTL at J7 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin OTG_DATA[7] uses I/O standard 3.3-V LVTTL at H6 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin OTG_DATA[8] uses I/O standard 3.3-V LVTTL at H3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin OTG_DATA[9] uses I/O standard 3.3-V LVTTL at H4 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin OTG_DATA[10] uses I/O standard 3.3-V LVTTL at G1 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin OTG_DATA[11] uses I/O standard 3.3-V LVTTL at G2 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin OTG_DATA[12] uses I/O standard 3.3-V LVTTL at G3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin OTG_DATA[13] uses I/O standard 3.3-V LVTTL at F1 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin OTG_DATA[14] uses I/O standard 3.3-V LVTTL at F3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin OTG_DATA[15] uses I/O standard 3.3-V LVTTL at G4 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169178): Pin DRAM_DQ[0] uses I/O standard 3.3-V LVTTL at W3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[1] uses I/O standard 3.3-V LVTTL at W2 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[2] uses I/O standard 3.3-V LVTTL at V4 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[3] uses I/O standard 3.3-V LVTTL at W1 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[4] uses I/O standard 3.3-V LVTTL at V3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[5] uses I/O standard 3.3-V LVTTL at V2 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[6] uses I/O standard 3.3-V LVTTL at V1 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[7] uses I/O standard 3.3-V LVTTL at U3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[8] uses I/O standard 3.3-V LVTTL at Y3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[9] uses I/O standard 3.3-V LVTTL at Y4 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[10] uses I/O standard 3.3-V LVTTL at AB1 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[11] uses I/O standard 3.3-V LVTTL at AA3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[12] uses I/O standard 3.3-V LVTTL at AB2 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[13] uses I/O standard 3.3-V LVTTL at AC1 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[14] uses I/O standard 3.3-V LVTTL at AB3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[15] uses I/O standard 3.3-V LVTTL at AC2 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[16] uses I/O standard 3.3-V LVTTL at M8 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[17] uses I/O standard 3.3-V LVTTL at L8 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[18] uses I/O standard 3.3-V LVTTL at P2 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[19] uses I/O standard 3.3-V LVTTL at N3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[20] uses I/O standard 3.3-V LVTTL at N4 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[21] uses I/O standard 3.3-V LVTTL at M4 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[22] uses I/O standard 3.3-V LVTTL at M7 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[23] uses I/O standard 3.3-V LVTTL at L7 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[24] uses I/O standard 3.3-V LVTTL at U5 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[25] uses I/O standard 3.3-V LVTTL at R7 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[26] uses I/O standard 3.3-V LVTTL at R1 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[27] uses I/O standard 3.3-V LVTTL at R2 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[28] uses I/O standard 3.3-V LVTTL at R3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[29] uses I/O standard 3.3-V LVTTL at T3 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[30] uses I/O standard 3.3-V LVTTL at U4 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin DRAM_DQ[31] uses I/O standard 3.3-V LVTTL at U1 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169178): Pin FLASH_DQ[0] uses I/O standard 3.3-V LVTTL at AH8 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169178): Pin FLASH_DQ[1] uses I/O standard 3.3-V LVTTL at AF10 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169178): Pin FLASH_DQ[2] uses I/O standard 3.3-V LVTTL at AG10 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169178): Pin FLASH_DQ[3] uses I/O standard 3.3-V LVTTL at AH10 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169178): Pin FLASH_DQ[4] uses I/O standard 3.3-V LVTTL at AF11 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169178): Pin FLASH_DQ[5] uses I/O standard 3.3-V LVTTL at AG11 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169178): Pin FLASH_DQ[6] uses I/O standard 3.3-V LVTTL at AH11 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169178): Pin FLASH_DQ[7] uses I/O standard 3.3-V LVTTL at AF12 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169178): Pin OSC_50[0] uses I/O standard 3.3-V LVTTL at Y2 File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 283
 Warning (169064): Following 108 pins have no output enable or a GND or VCC output enable - later changes to this connectivity may change fitting results
-    Info (169065): Pin LCD_DATA[0] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169065): Pin LCD_DATA[1] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169065): Pin LCD_DATA[2] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169065): Pin LCD_DATA[3] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169065): Pin LCD_DATA[4] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169065): Pin LCD_DATA[5] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169065): Pin LCD_DATA[6] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169065): Pin LCD_DATA[7] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 311
-    Info (169065): Pin PS2_KBCLK has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 324
-    Info (169065): Pin PS2_KBDAT has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 325
-    Info (169065): Pin PS2_MSCLK has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 326
-    Info (169065): Pin PS2_MSDAT has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 327
-    Info (169065): Pin NET0_MDIO has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 366
-    Info (169065): Pin NET1_MDIO has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 385
-    Info (169065): Pin OTG_FSPEED has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 411
-    Info (169065): Pin OTG_LSPEED has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 413
-    Info (169065): Pin SRAM_DQ[0] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin SRAM_DQ[1] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin SRAM_DQ[2] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin SRAM_DQ[3] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin SRAM_DQ[4] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin SRAM_DQ[5] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin SRAM_DQ[6] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin SRAM_DQ[7] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin SRAM_DQ[8] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin SRAM_DQ[9] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin SRAM_DQ[10] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin SRAM_DQ[11] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin SRAM_DQ[12] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin SRAM_DQ[13] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin SRAM_DQ[14] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin SRAM_DQ[15] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 436
-    Info (169065): Pin AIC_BCLK has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 465
-    Info (169065): Pin AIC_LRCIN has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 468
-    Info (169065): Pin AIC_LRCOUT has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 469
-    Info (169065): Pin J1_152 has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 480
-    Info (169065): Pin SD_CMD has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 331
-    Info (169065): Pin SD_DAT[0] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 332
-    Info (169065): Pin SD_DAT[1] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 332
-    Info (169065): Pin SD_DAT[2] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 332
-    Info (169065): Pin SD_DAT[3] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 332
-    Info (169065): Pin AUD_ADCLRCK has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 347
-    Info (169065): Pin AUD_BCLK has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 348
-    Info (169065): Pin AUD_DACLRCK has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 350
-    Info (169065): Pin EEP_I2C_SDA has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 355
-    Info (169065): Pin I2C_SDA has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 359
-    Info (169065): Pin OTG_DATA[0] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin OTG_DATA[1] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin OTG_DATA[2] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin OTG_DATA[3] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin OTG_DATA[4] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin OTG_DATA[5] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin OTG_DATA[6] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin OTG_DATA[7] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin OTG_DATA[8] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin OTG_DATA[9] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin OTG_DATA[10] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin OTG_DATA[11] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin OTG_DATA[12] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin OTG_DATA[13] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin OTG_DATA[14] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin OTG_DATA[15] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 409
-    Info (169065): Pin DRAM_DQ[0] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[1] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[2] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[3] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[4] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[5] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[6] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[7] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[8] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[9] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[10] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[11] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[12] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[13] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[14] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[15] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[16] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[17] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[18] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[19] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[20] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[21] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[22] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[23] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[24] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[25] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[26] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[27] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[28] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[29] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[30] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin DRAM_DQ[31] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 428
-    Info (169065): Pin FLASH_DQ[0] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169065): Pin FLASH_DQ[1] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169065): Pin FLASH_DQ[2] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169065): Pin FLASH_DQ[3] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169065): Pin FLASH_DQ[4] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169065): Pin FLASH_DQ[5] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169065): Pin FLASH_DQ[6] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169065): Pin FLASH_DQ[7] has a permanently disabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 445
-    Info (169065): Pin AD_SCLK has a permanently enabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 453
-    Info (169065): Pin AD_SDIO has a permanently enabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 454
-    Info (169065): Pin FPGA_CLK_A_N has a permanently enabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 476
-    Info (169065): Pin FPGA_CLK_A_P has a permanently enabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 477
-    Info (169065): Pin FPGA_CLK_B_N has a permanently enabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 478
-    Info (169065): Pin FPGA_CLK_B_P has a permanently enabled output enable File: C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/de2_115_dsp_design_top.v Line: 479
-Info (144001): Generated suppressed messages file C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/DE2_115_dsp_design_top.fit.smsg
+    Info (169065): Pin LCD_DATA[0] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169065): Pin LCD_DATA[1] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169065): Pin LCD_DATA[2] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169065): Pin LCD_DATA[3] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169065): Pin LCD_DATA[4] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169065): Pin LCD_DATA[5] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169065): Pin LCD_DATA[6] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169065): Pin LCD_DATA[7] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 311
+    Info (169065): Pin PS2_KBCLK has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 324
+    Info (169065): Pin PS2_KBDAT has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 325
+    Info (169065): Pin PS2_MSCLK has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 326
+    Info (169065): Pin PS2_MSDAT has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 327
+    Info (169065): Pin NET0_MDIO has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 366
+    Info (169065): Pin NET1_MDIO has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 385
+    Info (169065): Pin OTG_FSPEED has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 411
+    Info (169065): Pin OTG_LSPEED has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 413
+    Info (169065): Pin SRAM_DQ[0] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin SRAM_DQ[1] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin SRAM_DQ[2] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin SRAM_DQ[3] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin SRAM_DQ[4] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin SRAM_DQ[5] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin SRAM_DQ[6] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin SRAM_DQ[7] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin SRAM_DQ[8] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin SRAM_DQ[9] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin SRAM_DQ[10] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin SRAM_DQ[11] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin SRAM_DQ[12] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin SRAM_DQ[13] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin SRAM_DQ[14] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin SRAM_DQ[15] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 436
+    Info (169065): Pin AIC_BCLK has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 465
+    Info (169065): Pin AIC_LRCIN has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 468
+    Info (169065): Pin AIC_LRCOUT has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 469
+    Info (169065): Pin J1_152 has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 480
+    Info (169065): Pin SD_CMD has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 331
+    Info (169065): Pin SD_DAT[0] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 332
+    Info (169065): Pin SD_DAT[1] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 332
+    Info (169065): Pin SD_DAT[2] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 332
+    Info (169065): Pin SD_DAT[3] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 332
+    Info (169065): Pin AUD_ADCLRCK has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 347
+    Info (169065): Pin AUD_BCLK has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 348
+    Info (169065): Pin AUD_DACLRCK has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 350
+    Info (169065): Pin EEP_I2C_SDA has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 355
+    Info (169065): Pin I2C_SDA has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 359
+    Info (169065): Pin OTG_DATA[0] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin OTG_DATA[1] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin OTG_DATA[2] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin OTG_DATA[3] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin OTG_DATA[4] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin OTG_DATA[5] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin OTG_DATA[6] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin OTG_DATA[7] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin OTG_DATA[8] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin OTG_DATA[9] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin OTG_DATA[10] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin OTG_DATA[11] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin OTG_DATA[12] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin OTG_DATA[13] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin OTG_DATA[14] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin OTG_DATA[15] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 409
+    Info (169065): Pin DRAM_DQ[0] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[1] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[2] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[3] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[4] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[5] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[6] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[7] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[8] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[9] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[10] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[11] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[12] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[13] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[14] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[15] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[16] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[17] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[18] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[19] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[20] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[21] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[22] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[23] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[24] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[25] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[26] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[27] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[28] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[29] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[30] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin DRAM_DQ[31] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 428
+    Info (169065): Pin FLASH_DQ[0] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169065): Pin FLASH_DQ[1] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169065): Pin FLASH_DQ[2] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169065): Pin FLASH_DQ[3] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169065): Pin FLASH_DQ[4] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169065): Pin FLASH_DQ[5] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169065): Pin FLASH_DQ[6] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169065): Pin FLASH_DQ[7] has a permanently disabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 445
+    Info (169065): Pin AD_SCLK has a permanently enabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 453
+    Info (169065): Pin AD_SDIO has a permanently enabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 454
+    Info (169065): Pin FPGA_CLK_A_N has a permanently enabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 476
+    Info (169065): Pin FPGA_CLK_A_P has a permanently enabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 477
+    Info (169065): Pin FPGA_CLK_B_N has a permanently enabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 478
+    Info (169065): Pin FPGA_CLK_B_P has a permanently enabled output enable File: C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/de2_115_dsp_design_top.v Line: 479
+Info (144001): Generated suppressed messages file C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/DE2_115_dsp_design_top.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 18 warnings
-    Info: Peak virtual memory: 6423 megabytes
-    Info: Processing ended: Tue May 31 10:55:56 2022
-    Info: Elapsed time: 00:00:30
-    Info: Total CPU time (on all processors): 00:00:46
+    Info: Peak virtual memory: 6410 megabytes
+    Info: Processing ended: Sun Jun 26 15:41:18 2022
+    Info: Elapsed time: 00:00:29
+    Info: Total CPU time (on all processors): 00:00:47
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DCC_CDRom/Examples/DE2_115_dsp_example_ChAB/DE2_115_dsp_design_top.fit.smsg.
+The suppressed messages can be found in C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_Digital_signal_processing/DE2_115_dsp_design_top.fit.smsg.
 
 

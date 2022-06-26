@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Jun 26 16:53:44 2022
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : DE2_115_SD_Card_Audio_Player
+Top-level Entity Name : DE2_115_SD_Card_Audio_Player
+Family : Cyclone IV E
+Total logic elements : 8,002
+    Total combinational functions : 5,990
+    Dedicated logic registers : 4,881
+Total registers : 4881
+Total pins : 521
+Total virtual pins : 0
+Total memory bits : 2,875,904
+Embedded Multiplier 9-bit elements : 4
+Total PLLs : 2
