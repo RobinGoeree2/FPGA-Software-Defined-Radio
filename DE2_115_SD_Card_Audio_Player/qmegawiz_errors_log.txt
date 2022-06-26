@@ -89,3 +89,8 @@ C:/Users/Robin/Documents/NHLStenden/FPGA/QuartusPrimeProjects/DE2-115_V.1.0.6_Sy
 
 Jun 09 11AM:47:10>: Megafunction Altera SOPC Builder is not listed in any 
 wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/Robin/Documents/GitHub/FPGA-Software-Defined-Radio/DE2_115_SD_Card_Audio_Player/de2_115_sopc.v
+
+Jun 26 11PM:34:59>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
