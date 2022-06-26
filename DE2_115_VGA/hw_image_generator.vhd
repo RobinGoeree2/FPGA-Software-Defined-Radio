@@ -47,8 +47,8 @@ BEGIN
 				green	<= (OTHERS => '0');
 				blue <= (OTHERS => '0');
 			ELSE
-				red <= (OTHERS => '1');
-				green	<= (OTHERS => '1');
+				red <= (OTHERS => '0');
+				green	<= (OTHERS => '0');
 				blue <= (OTHERS => '1');
 			END IF;
 		ELSE								--blanking time
