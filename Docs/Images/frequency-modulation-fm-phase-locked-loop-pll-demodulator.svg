@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1050.088" height="441.5" viewBox="0, 0, 1050.088, 441.5">
+  <g id="Layer_1">
+    <g>
+      <path d="M591.588,6 L804.588,6 L804.588,147 L591.588,147 L591.588,6 z" fill="#FFFFFF"/>
+      <path d="M591.588,6 L804.588,6 L804.588,147 L591.588,147 L591.588,6 z" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+    </g>
+    <g>
+      <path d="M591.588,294 L804.588,294 L804.588,437 L591.588,437 L591.588,294 z" fill="#FFFFFF"/>
+      <path d="M591.588,294 L804.588,294 L804.588,437 L591.588,437 L591.588,294 z" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+    </g>
+    <g>
+      <path d="M303.588,6 L453.255,6 L453.255,147 L303.588,147 L303.588,6 z" fill="#FFFFFF"/>
+      <path d="M303.588,6 L453.255,6 L453.255,147 L303.588,147 L303.588,6 z" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 82.044, 80.167)">
+      <tspan x="-42.678" y="-38" font-family="Avenir-Medium" font-size="36" fill="#656565">Input </tspan>
+      <tspan x="-58.698" y="11" font-family="Avenir-Medium" font-size="36" fill="#656565">from IF </tspan>
+      <tspan x="-52.992" y="60" font-family="Avenir-Medium" font-size="36" fill="#656565">stages</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 935.544, 314)">
+      <tspan x="-111.708" y="-15" font-family="Avenir-Medium" font-size="36" fill="#656565">Demodulated </tspan>
+      <tspan x="-55.026" y="34" font-family="Avenir-Medium" font-size="36" fill="#656565">output</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 697.588, 372.5)">
+      <tspan x="-41.724" y="-13.5" font-family="Avenir-Medium" font-size="36" fill="#656565">Loop </tspan>
+      <tspan x="-37.962" y="35.5" font-family="Avenir-Medium" font-size="36" fill="#656565">filter</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 697.588, 76)">
+      <tspan x="-62.37" y="-40" font-family="Avenir-Medium" font-size="36" fill="#656565">Voltage </tspan>
+      <tspan x="-82.71" y="9" font-family="Avenir-Medium" font-size="36" fill="#656565">controlled </tspan>
+      <tspan x="-73.674" y="58" font-family="Avenir-Medium" font-size="36" fill="#656565">oscillator</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 377.044, 80.167)">
+      <tspan x="-48.024" y="-14.5" font-family="Avenir-Medium" font-size="36" fill="#656565">Phase</tspan>
+      <tspan x="-70.362" y="34.5" font-family="Avenir-Medium" font-size="36" fill="#656565">detector</tspan>
+    </text>
+    <g>
+      <path d="M591.588,76.5 L466.855,76.5" fill-opacity="0" stroke="#000000" stroke-width="4"/>
+      <path d="M466.855,76.5 L470.055,71.7 L457.255,76.5 L470.055,81.3 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="4" stroke-opacity="1"/>
+    </g>
+    <g>
+      <path d="M157.588,76.5 L289.683,76.5" fill-opacity="0" stroke="#000000" stroke-width="4"/>
+      <path d="M289.683,76.5 L286.483,81.3 L299.283,76.5 L286.483,71.7 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="4" stroke-opacity="1"/>
+    </g>
+    <g>
+      <path d="M804.588,365.5 L936.683,365.5" fill-opacity="0" stroke="#000000" stroke-width="4"/>
+      <path d="M936.683,365.5 L933.483,370.3 L946.283,365.5 L933.483,360.7 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="4" stroke-opacity="1"/>
+    </g>
+    <g>
+      <path d="M698.088,294 L698.088,162.219" fill-opacity="0" stroke="#000000" stroke-width="4"/>
+      <path d="M698.088,162.219 L702.888,165.419 L698.088,152.618 L693.288,165.419 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="4" stroke-opacity="1"/>
+    </g>
+    <g>
+      <path d="M579.988,365.5 L373.239,365.5 L373.239,147.12" fill-opacity="0" stroke="#000000" stroke-width="4"/>
+      <path d="M579.988,365.5 L576.788,370.3 L589.588,365.5 L576.788,360.7 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="4" stroke-opacity="1"/>
+    </g>
+  </g>
+</svg>
